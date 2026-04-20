@@ -84,6 +84,40 @@ html {
     font-family: var(--font);
 }
 
+header {
+	background-color: var(--midnight-blue);
+	color: var(--soft-white);
+	text-align: center;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	margin: 1.5rem;
+}
+
+header p {
+	font-size: 1.25rem;
+	font-style: italic;
+	margin: 1.5rem;
+}
+
+nav {
+	background-color: var(--champagne-gold);
+	color: var(--midnight-blue);
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0.75rem;
+}
+
+nav li {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 
 
 
