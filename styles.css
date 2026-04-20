@@ -84,6 +84,7 @@ html {
     font-family: var(--font);
 }
 
+/* Header */
 header {
 	background-color: var(--midnight-blue);
 	color: var(--soft-white);
@@ -118,6 +119,23 @@ nav li {
 	font-size: 1.5rem;
 	font-weight: bold;
 }
+
+
+
+
+/* Main */
+main {
+	padding: 1.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+main p {
+	line-height: 1.25rem;
+}
+
 
 
 
