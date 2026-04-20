@@ -81,7 +81,9 @@ table {
 
 /* Global styles , mobile + small */
 html {
+	background-color: var(--midnight-blue);
     font-family: var(--font);
+	color: var(--dark-charcoal);
 }
 
 /* Header */
@@ -122,13 +124,14 @@ nav li {
 
 
 
-
-/* Offerings */
 main {
 	padding: 1.5rem;
 	line-height: 1.4rem;
+	background-color: var(--soft-white);
 }
 
+
+/* Offerings */
 h2 {
 	font-size: 2rem;
 	padding: 1.5rem 0 0.5rem;
@@ -167,7 +170,7 @@ main li {
 
 
 /* Gallery */
-div > div {
+main div > div {
 	border-radius: 10px;
 	box-shadow: 0.1rem 0.25rem 0.5rem rgb(169, 169, 169);
 	margin: 1rem 0;
@@ -179,11 +182,54 @@ div > img {
 	border-radius: 10px 10px 0 0;
 }
 
-div > p {
+main div > p {
 	font-style: italic;
 	padding: 0.5rem;
 }
 
+.button {
+	text-align: center;
+	background-color: var(--olive-green);
+	border-radius: 5px;
+}
+
+.button a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	color: var(--soft-white);
+}
+
+
+
+/* Footer */
+footer {
+	line-height: 1.5rem;
+	background-color: var(--midnight-blue);
+	color: var(--soft-white);
+	text-align: center;
+	padding: 4rem 0;
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--champagne-gold);
+}
+
+.tel {
+	color: var(--soft-white); 
+	font-weight: normal;
+}
+
+
+footer div > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 0.5rem;
+	margin: 2rem;
+}
 
 
 /* Media Query (medium) */
