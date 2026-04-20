@@ -126,16 +126,42 @@ nav li {
 /* Main */
 main {
 	padding: 1.5rem;
+	line-height: 1.4rem;
 }
 
 h2 {
 	font-size: 2rem;
+	padding: 1rem 0;
 }
 
-main p {
-	line-height: 1.25rem;
+article > p {
+	padding: 0.5rem 0;
 }
 
+article {
+	padding: 1rem 0;
+	border-bottom: 2px var(--champagne-gold) solid;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 0.5rem 0;
+}
+
+div section {
+	background-color: var(--olive-green);
+	color: var(--soft-white);
+	border-radius: 0.8rem;
+	margin: 1rem 0;
+	padding: 1rem;
+}
+
+main li {
+	line-height: 1.4rem;
+	list-style: disc;
+	list-style-position: inside;
+}
 
 
 
