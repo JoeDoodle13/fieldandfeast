@@ -233,7 +233,22 @@ footer div > div {
 
 
 /* Media Query (medium) */
+@media screen and (min-width: 600px) {
+	.offerings {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	margin: 1rem 0;
+}
 
+	.offerings section {
+		margin: 0;
+	}
+
+	.monthly-basket {
+		grid-column: 1 / 3;
+	}
+}
 
 
 
